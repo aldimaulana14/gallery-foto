@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Thumbnail Gallery</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <h1>Gallery</h1>
+  </header>
+
+  <main>
+    <div class="thumbnail">
+      <img src="asset/thumbs/akartumbs.png" alt="Thumbnail 1" data-full="asset/full/akarman.jpg">
+    </div>
+    <div class="thumbnail">
+      <img src="asset/thumbs/batmanthumbs.png" alt="Thumbnail 1" data-full="asset/full/batman.jpg">
+    </div>
+    <div class="thumbnail">
+      <img src="asset/thumbs/spiderthumbs.png" alt="Thumbnail 1" data-full="asset/full/spiderman.jpg">
+    </div>
+    <div class="thumbnail">
+      <img src="asset/thumbs/supermanthumbs.png" alt="Thumbnail 1" data-full="asset/full/superman.jpg">
+    </div>
+   
+  </main>
+
+  <!-- Modal -->
+  <div id="modal" class="modal">
+    <span class="close">&times;</span>
+    <img id="modal-image" src="" alt="Full Image">
+  </div>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
